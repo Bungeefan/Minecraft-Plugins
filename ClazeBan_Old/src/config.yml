@@ -1,0 +1,21 @@
+UseMySQL: false
+
+DisabledMuteCommands:
+- "me"
+- "say"
+  
+UUID-Fetcher:
+  MOJANG-API:
+    URL: "https://api.mojang.com/users/profiles/minecraft/%Spieler%"
+    Key: "id"
+  BackUp-API:
+    URL: "http://tools.glowingmines.eu/convertor/nick/%Spieler%"
+    Key: "offlineuuid"
+
+Name-Fetcher:
+  MOJANG-API:
+    URL: "https://sessionserver.mojang.com/session/minecraft/profile/[UUID]"
+    Key: "name"
+  BackUp-API:
+    URL: "http://tools.glowingmines.eu/convertor/uuid/[UUID]"
+    Key: "nick"

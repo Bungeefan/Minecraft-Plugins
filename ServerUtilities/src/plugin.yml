@@ -1,0 +1,38 @@
+name: ServerUtilities
+version: 1.1
+author: Bungeefan
+main: me.bungeefan.ServerUtilities
+commands:
+  utilities:
+    description: Utilities/Util Befehl
+    aliases:
+    - util
+    usage: /<command> [reload/help/deaktivieren]
+  ticket:
+    description: Ticket Befehl
+    usage: /<command> [Text]
+  answer:
+    description: Ticket Antwort Befehl
+    aliases:
+    - antwort
+    usage: /<command> [Spieler] [Text]
+  teamchat:
+    description: Teamchat Befehl zum senden und togglen
+    aliases:
+    - tc
+    usage: /<command> [Text]
+  fake:
+    description: Fake Join/Leave Befehl
+    usage: /<command> [join/leave + Spielername]
+  uuid:
+    description: UUID Befehl
+    usage: /<command> [Spielername]
+  nickname:
+    description: Nickname Befehl
+    usage: /<command> [set/reset] [Spielername] [Nickname]
+  custom:
+    description: Custom Befehl
+    usage: /<command> [AutoRespawn/UnlimitedFood/FallDamage/PluginsCMDBlocked/UnknownCMD/PlayerChat/Join/Leave/Kick] [ein/aus]
+  invsee:
+    description: Invsee Befehl
+    usage: /<command> [Spieler]

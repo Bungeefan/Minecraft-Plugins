@@ -1,0 +1,8 @@
+name: Economize
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.Economize
+commands:
+  eco:
+    description: Economize Toggle
+    usage: /<command>

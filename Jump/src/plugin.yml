@@ -1,0 +1,11 @@
+name: Jump
+version: 1.1
+author: Bungeefan
+main: me.bungeefan.Jump
+commands:
+  jump:
+    description: Jump Befehl
+    usage: /<command> [ein/aus/reload]
+  jumppads:
+    description: JumpPads Befehl
+    usage: /<command> [ein/aus/aendern/sound/partikel/staerke] [ein/aus]

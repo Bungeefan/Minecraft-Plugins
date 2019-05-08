@@ -1,0 +1,9 @@
+name: ScoreboardChanger
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.ScoreboardChanger
+
+commands:
+  board:
+    description: Scoreboard Befehl
+    usage: /<command> [update]

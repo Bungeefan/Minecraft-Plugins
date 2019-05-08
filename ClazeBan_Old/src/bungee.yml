@@ -1,0 +1,26 @@
+name: ClazeBan
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.ClazeBan
+commands:
+  ban:
+    description: Spieler bannen
+    usage: /<command> [Spieler] [Zeit (-1 - Permanent, Xs - Sekunden, Xmin - Minuten, Xh - Stunden, Xt - Tage, Xm - Monate] [Grund]
+  kick:
+    description: Spieler kicken
+    usage: /<command> [Spieler] [Grund]
+  mute:
+    description: Spieler muten
+    usage: /<command> [Spieler] [Zeit (-1 - Permanent, Xs - Sekunden, Xmin - Minuten, Xh - Stunden, Xt - Tage, Xm - Monate] [Grund]
+  banlist:
+    description: Banliste anzeigen
+    usage: /<command>
+  check:
+    description: Alle Informationen eines Spielers anzeigen
+    usage: /<command> [Spieler]
+  unban:
+    description: Einen Spieler unbanen
+    usage: /<command> [Spieler]
+  unmute:
+    description: Einen Spieler unmuten
+    usage: /<command> [Spieler]

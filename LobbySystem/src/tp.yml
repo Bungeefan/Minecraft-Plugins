@@ -1,0 +1,52 @@
+#Vorlage
+#  name:
+#    slot: 0
+#    Item-ID: 1
+#    world: "world"
+#    x: 0.0
+#    y: 0.0
+#    z: 0.0
+#    yaw: 0.0
+#    pitch: 0.0
+Warps:
+  List:
+    - Spawn
+    - Bedwars
+    - Skywars
+    - TTT
+  Spawn:
+    slot: 4
+    Item-ID: 378
+    world: "world"
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+  Bedwars:
+    slot: 10
+    Item-ID: 26
+    world: "world"
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+  Skywars:
+    slot: 12
+    Item-ID: 2
+    world: "world"
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+  TTT:
+    slot: 14
+    Item-ID: 280
+    world: "world"
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0

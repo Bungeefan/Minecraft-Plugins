@@ -1,0 +1,8 @@
+name: Wartung
+version: 1.6
+author: Bungeefan
+main: me.bungeefan.Wartung
+commands:
+  wartung:
+    description: Wartungsbefehl
+    usuage: /<command> (an/aus/reload/help/deaktivieren)

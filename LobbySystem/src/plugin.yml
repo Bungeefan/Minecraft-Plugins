@@ -1,0 +1,19 @@
+name: LobbySystem
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.LobbySystem
+commands:
+  fly:
+    description: Fly togglen
+    aliases:
+    - fliegen
+    usage: /<command> [all-on/all-off/reload/deaktivieren/Spielername]
+  jump:
+    description: Jump Befehl
+    usage: /<command> [ein/aus/reload]
+  jumppads:
+    description: JumpPads Befehl
+    usage: /<command>
+  build:
+    description: Buildermodus togglen
+    usage: /<command>

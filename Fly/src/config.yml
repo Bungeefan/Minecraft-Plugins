@@ -1,0 +1,13 @@
+# Hier kannst du alles ändern.
+Fly:
+  Prefix: "&b[Fly]&r "
+  KeinRecht: "&cDu hast keine Rechte um diesen Command ausführen!"
+  KeinSpieler: "&cDu musst diesen Command als Spieler ausführen!"
+  Nichtgefunden: "&cSpieler nicht gefunden!"
+  Fehler: "&cFehler! Bitte versuche es erneut."
+  aktiviert: "&aFliegen aktiviert!"
+  deaktiviert: "&aFliegen deaktiviert!"
+  Alle-ein: "&9%Player%&r &ahat bei allen Spielern Fliegen aktiviert!"
+  Alle-aus: "&9%Player%&r &ahat bei allen Spielern Fliegen deaktiviert!"
+  Spieler-ein: "&aDu hast bei&r &9%Player%&r &aFliegen aktiviert!"
+  Spieler-aus: "&aDu hast bei&r &9%Player%&r &aFliegen deaktiviert!"

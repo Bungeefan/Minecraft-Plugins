@@ -1,0 +1,17 @@
+name: SkyTerraHelp
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.SkyTerraHelp
+
+commands:
+  skyterrahelp:
+  hilfe:
+  skyterra:
+  shophilfe:
+  team:
+  skybox:
+  news:
+  vip:
+  spenden:
+  frage:
+  ip:

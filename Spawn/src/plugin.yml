@@ -1,0 +1,11 @@
+name: Spawn
+version: 1.6
+author: Bungeefan
+main: me.bungeefan.Spawn
+commands:
+  spawn:
+    description: Spawn Befehl
+    usage: /<command> [all/reload/help/deaktivieren/Spielername]
+  setspawn:
+    description: Setzt den Spawn (neu)
+    usage: /<command> [X] [Y] [Z]

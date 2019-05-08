@@ -1,0 +1,45 @@
+MOTD:
+  Line1: "   §eClazeGames.net §c§l- §fDein Servernetzwerk §8§l?§c§o1.8-1.12§8§l?"
+  Line2: "         §aSERVER-RELEASE §8» §2NEUE SPIELMODIEN"
+Wartung:
+  aktiviert: false
+  #Not working
+  VersionMSG:
+    - " "
+    - "§eClazeGames.net §c§l- §fDein Servernetzwerk"
+    - " "
+    - "§7Twitter §8\u00BB §e@ClazeGamesNET"
+    - "§7TeamSpeak §8\u00BB §eClazeGames.net"
+    - "§7Website §8\u00BB §eClazeGames.net"
+  Version: "§4§lWartungsarbeiten"
+  MOTD:
+    Line1: "   §eClazeGames.net §c§l- §fDein Servernetzwerk §8§l?§c§o1.8-1.12§8§l?"
+    Line2: "       §4Wartungsarbeiten §8» §2Gleich geht's weiter!"
+  Kick:
+    Line1: "   §eClazeGames.net §c§l- §fDein Servernetzwerk §8§l?§c§o1.8-1.12§8§l?"
+    Line2: " "
+    Line3: "§cMomentan f\u00FChren wir Wartungen durch!"
+    Line4: "§cWir bitten um dein Verst\u00E4ndnis."
+
+#Uhrzeit: 0-24
+AutoWartung:
+  aktiviert: false
+  Uhrzeit: "04:00"
+  EndUhrzeit: "04:30"
+
+#Uhrzeit: 0-24
+ServerRestart:
+  aktiviert: false
+  Version: "§4Neustart"
+  Uhrzeit: "3"
+  MinMSG: "§cDas Netzwerk wird in §e%Zeit% §cMinute/n neu gestartet."
+  SekMSG: "§cDas Netzwerk wird in §e%Zeit% §cSekunde/n neu gestartet."
+  RestartMSG: "§cDas Netzwerk wird neu gestartet."
+  MOTD:
+    Line1: "   §eClazeGames.net §c§l- §fDein Servernetzwerk §8§l?§c§o1.8-1.12§8§l?"
+    Line2: "§4[§e§l!§4] §cDas Netzwerk wird neu gestartet!"
+
+MaxPlayers: 100
+RealOnlinePlayers: true
+Fake: 0
+MessageDelay: 5

@@ -1,0 +1,25 @@
+# Hier kannst du alles ändern.
+Wartung:
+  Aktiv: false
+  Prefix: "&c[Wartung]&r "
+  Slots: 0
+  KickAll: true
+  Kein Recht: "&cDu hast keine Rechte um diesen Command ausführen!"
+  Leave: "&7[Player]&r &chat den Server verlassen."
+  LeaveON: true
+  Kick: "&7[Player]&r &cwurde vom Server gekickt."
+  KickOn: true
+MOTD:
+  Line1: "&9Mein Server&r &7Dein Netzwerk &e1.12"
+  Line2: "&4[&e&l!&4] &cWartungsmodus aktiviert!"
+Kick:
+  Line1: "&9Mein Server"
+  Line2: " "
+  Line3: "&cMomentan führen wir Wartungen durch!"
+  Line4: "&cWir bitten um dein Verständnis."
+AutoWartung:
+  aktiviert: true
+  Uhrzeit: "04:00"
+  EndUhrzeit: "04:30"
+Info:
+  Version: 1.0

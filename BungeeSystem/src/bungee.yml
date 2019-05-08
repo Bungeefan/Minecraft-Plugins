@@ -1,0 +1,5 @@
+name: BungeeSystem
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.BungeeSystem
+database: true

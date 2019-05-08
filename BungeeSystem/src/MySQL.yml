@@ -1,0 +1,17 @@
+MySQL:
+  BungeeSystem:
+   Host: "127.0.0.1"
+   Port: 3306
+   Username: ""
+   Password: ""
+   DB: "BungeeSystem-DB"
+   Ban-Table: "Bans"
+   Mute-Table: "Mutes"
+
+#Not enabled
+  PermissionsEx:
+   Host: "127.0.0.1"
+   Port: 3306
+   Username: ""
+   Password: ""
+   DB: "PexDB"

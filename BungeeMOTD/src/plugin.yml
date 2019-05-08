@@ -1,0 +1,9 @@
+name: BungeeMOTD
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.BungeeMOTD
+
+commands
+  motd:
+    description: MOTD Befehl
+    usage: /<command> [an/aus/setline1/setline2/setslots/reload/help/deaktivieren]

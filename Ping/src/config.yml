@@ -1,0 +1,9 @@
+Ping:
+  Prefix: "&d[Ping]&r "
+  KeinRecht: "&cDu hast keine Rechte um diesen Command ausführen!"
+  KeinSpieler: "&cDu musst diesen Command als Spieler ausführen!"
+  Nichtgefunden: "&cSpieler nicht gefunden!"
+  Fehler: "&cFehler! Bitte versuche es erneut."
+  PingMSG: "&6Dein Ping ist&r %ping%ms&r!"
+  OtherPingMSG: "&6Der Ping von %Spieler% ist&r %ping%ms&r!"
+  HighPing: 500

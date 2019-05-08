@@ -1,0 +1,33 @@
+Prefix: "&6[Lobby]&r "
+KeinRecht: "&cDu hast keine Rechte um diesen Command ausführen!"
+KeinSpieler: "&cDu musst diesen Command als Spieler ausführen!"
+Nichtgefunden: "&cSpieler nicht gefunden!"
+Fehler: "&cFehler! Bitte versuche es erneut."
+SilentLobbyJoin: "&eDu bist nun auf der SilentLobby. Hier bist du völlig ungestört!"
+SilentLobbyLeave: "&eDu bist nun nicht mehr in der SilentLobby!"
+Spawn:
+  Gesetzt: "&aSpawn wurde erfolgreich gesetzt!"
+Fly:
+  aktiviert: "&aFliegen aktiviert!"
+  deaktiviert: "&aFliegen deaktiviert!"
+  Alle-ein: "&9%Player%&r &ahat bei allen Spielern Fliegen aktiviert!"
+  Alle-aus: "&9%Player%&r &ahat bei allen Spielern Fliegen deaktiviert!"
+  Spieler-ein: "&aDu hast bei&r &9%Player%&r &aFliegen aktiviert!"
+  Spieler-aus: "&aDu hast bei&r &9%Player%&r &aFliegen deaktiviert!"
+JumpPads:
+  Gesetzt: "&aJumpPad wurde gesetzt!"
+  Entfernt: "&cJumpPad wurde entfernt!"
+Build:
+  aktiviert: "&aBuildermodus aktiviert!"
+  deaktiviert: "&aBuildermodus deaktiviert!"
+Custom:
+  UnknownCMD: false
+  UnknownCMDMessage: "&cDieser Command wurde nicht gefunden!"
+  PlayerChat: false
+  PlayerChatName: "&a%Player%&7:&r "
+  Join: false
+  JoinMessage: "&a%Player%&r &ehat den Server betreten."
+  Leave: false
+  LeaveMessage: "&a%Player%&r &ehat den Server verlassen."
+  Kick: false
+  KickMessage: "&a%Player%&r &cwurde vom Server gekickt."

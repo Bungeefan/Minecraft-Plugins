@@ -1,0 +1,28 @@
+# Hier kannst du alles ändern.
+Scoreboard:
+  Prefix: "&6[Scoreboard]&r "
+  KeinRecht: "&cDu hast keine Rechte um diesen Command ausführen!"
+  KeinSpieler: "&cDu musst diesen Command als Spieler ausführen!"
+  Nichtgefunden: "&cSpieler nicht gefunden!"
+  Fehler: "&cFehler! Bitte versuche es erneut."
+  DefaultName: "Spieler"
+  DisplayName: "&lBUNGEEFAN"
+  Zeilen:
+  - "&6Dein Rang:"
+  - "&r%Rang%"
+  - "&r "
+  - "&6Online:"
+  - "&r%Online%/%Max%"
+  - "&r  "
+  - "&6Website:"
+  - "Website.de"
+  - "&r   "
+  - "&6TeamSpeak:"
+  - "voice.teamspeak.de"
+  RangRechte:
+  - "Board.Admin"
+  - "Board.Developer"
+  - "Board.Moderator"
+  - "Board.Supporter"
+  - "Board.Builder"
+  - "Board.Spieler"

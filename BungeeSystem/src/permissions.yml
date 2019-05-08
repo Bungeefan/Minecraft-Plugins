@@ -1,0 +1,27 @@
+Ranks:
+  - "Admin"
+  - "Sr.Mod"
+  - "Mod"
+  - "Sr.Dev"
+  - "Dev"
+  - "Sup"
+  - "Bauleiter"
+  - "Builder"
+  - "YT"
+  - "Premium+"
+  - "Premium"
+  - "Spieler"
+
+Restrictions:
+  Mod:
+    Ban: "90d"
+    Mute: "90d"
+  Sr.Dev:
+    Ban: "6h"
+    Mute: "6h"
+  Sup:
+    Ban: "12h"
+    Mute: "12h"
+  Bauleiter:
+    Ban: "6h"
+    Mute: "6h"

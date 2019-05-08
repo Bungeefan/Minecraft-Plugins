@@ -1,0 +1,13 @@
+# Hier kannst du alles ändern.
+MOTD:
+  Status: true
+  Prefix: "&9[&cM&eO&dT&bD&9]&r "
+  aktiviert: "&aMOTD wurde aktiviert!"
+  deaktiviert: "&cMOTD wurde deaktiviert!"
+  setSlots: "&aSlots gesetzt!"
+  setLine: "&aMOTD gesetzt!"
+  Kein Recht: "&cDu hast keine Rechte um diesen Command ausführen!"
+  Slots: 0
+  Version: 0
+  Line1: "&9Das ist eine BeispielMOTD&r"
+  Line2: "&bDiese kann in der Config oder per Befehl geändert werden!&r"

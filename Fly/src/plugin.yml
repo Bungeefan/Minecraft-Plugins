@@ -1,0 +1,11 @@
+name: Fly
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.Fly
+commands:
+  fliegen:
+    description: Fliegen ein/aus
+    usage: /<command> [all-on/all-off/reload/help/deaktivieren/Spielername]
+  fly:
+    description: Fliegen ein/aus
+    usage: /<command> [all-on/all-off/reload/help/deaktivieren/Spielername]

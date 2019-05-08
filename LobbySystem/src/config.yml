@@ -1,0 +1,94 @@
+DoubleJump:
+  aktiviert: false
+  Stärke: 2.5
+  Höhe: 1.5
+  Cooldown: 1
+  Sound:
+    aktiviert: true
+    name: ENTITY_ENDERDRAGON_FLAP
+    volume: 10.0
+  Partikel:
+    aktiviert: true
+    name: DRAGON_BREATH
+    stärke: 50
+JumpPads:
+  aktiviert: true
+  Plate: GOLD_PLATE
+  änderbar: true
+  Stärke: 3.0
+  Höhe: 1.5
+  Orte: []
+  Sound:
+    aktiviert: true
+    name: ENTITY_ENDERDRAGON_FLAP
+    volume: 10.0
+  Partikel:
+    aktiviert: true
+    name: DRAGON_BREATH
+    stärke: 50
+Lobbys:
+  SilentLobby:
+    Name: SilentLobby-1
+    online: true
+    this: false
+  PremiumLobby:
+    Name: PremiumLobby-1
+    online: true
+    this: false
+  Lobby-1:
+    Name: Lobby-1
+    online: true
+    this: true
+  Lobby-2:
+    Name: Lobby-2
+    online: true
+    this: false
+  Lobby-3:
+    Name: Lobby-3
+    online: false
+    this: false
+  Lobby-4:
+    Name: Lobby-4
+    online: false
+    this: false
+StartCoins: 50
+Scoreboard:
+  aktiviert: true
+Chat:
+  aktiviert: true
+Teleporter:
+  aktiviert: true
+  name: "&bTeleporter"
+  Slot: 0
+HideShowPlayer:
+  aktiviert: true
+  name1: "&eHide all players"
+  name2: "&eShow all players"
+  Slot: 1
+Nicknamer:
+  aktiviert: true
+  name1: "&aNicknamer"
+  name2: "&cNicknamer"
+  Slot: 3
+Extras:
+  aktiviert: true
+  name: "&cExtras"
+  Slot: 4
+SilentLobby:
+  aktiviert: true
+  Slot: 5
+Lobbys:
+  aktiviert: true
+  name: "&6Lobby switcher"
+  Slot: 7
+Friends:
+  aktiviert: true
+  name: "&5Friends"
+  Slot: 8
+LocationSystem:
+  aktiviert: true
+showCoinsInLevel: true
+KickOnReload: false
+Fuellung:
+    name: "§r"
+    Item-ID: 160

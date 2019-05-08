@@ -1,0 +1,9 @@
+name: Ping
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.Ping
+
+commands:
+  ping:
+    description: Ping Befehl
+    usage: /<command> [Spieler]

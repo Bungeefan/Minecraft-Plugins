@@ -1,0 +1,27 @@
+# Hier kannst du alles ändern.
+BungeeWartung:
+  Status: false
+  Prefix: "&c[BungeeWartung]&r "
+  MaxPlayers: 0
+  RealOnlinePlayersActivated: false
+  RealOnlinePlayers: 0
+  Version: "§cWartungsmodus"
+  Kein Recht: "&cDu hast keine Rechte um diesen Command ausführen!"
+  JoinMSGEnabled: true
+  Join: "&7[Player]&r &ahat den Server betreten."
+  LeaveMSGEnabled: true
+  Leave: "&7[Player]&r &chat den Server verlassen."
+  KickMSGEnabled: true
+  Kick: "&7[Player]&r &cwurde vom Server gekickt."
+MOTD:
+  Line1: "&9Mein Server&r &7Dein Netzwerk &e1.12"
+  Line2: "&4[&e&l!&4] &cWartungsmodus aktiviert!"
+Kick:
+  Line1: "&9Mein Server"
+  Line2: " "
+  Line3: "&cMomentan führen wir Wartungen durch!"
+  Line4: "&cWir bitten um dein Verständnis."
+AutoWartung:
+  aktiviert: true
+  Uhrzeit: "04:00"
+  EndUhrzeit: "04:30"

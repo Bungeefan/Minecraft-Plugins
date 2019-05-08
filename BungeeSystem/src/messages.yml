@@ -1,0 +1,245 @@
+Allgemein:
+  Prefix: "§8§l[System]§8§l\u00BB§r "
+  KeinRecht: "§cDu hast keine Rechte, um diesen Befehl auszuführen!"
+  KeinSpieler: "§cDu musst ein Spieler sein, um diesen Befehl zu verwenden!"
+  NichtOnline: "§c§o%Spieler% §7ist nicht online!"
+  Fehler: "§cKonnte Spieler nicht abrufen! Siehe Konsole für mehr Informationen."
+  DatenFehler: "§cFehler! Siehe Konsole für mehr Informationen."
+  LobbyServer: "lobby"
+  RestartMSG: "§cDas Netzwerk wird momentan neu gestartet."
+  
+Wartung:
+  Ein: "§cDas Netzwerk befindet sich nun im Wartungsmodus."
+  Aus: "§aDas Netzwerk befindet sich nun nicht mehr im Wartungsmodus."
+  
+Login:
+  LimitMSG: "§cDas Netzwerk hat das Limit von §e %MaxPlayers% §cSpielern erreicht.\n\n§cDu benötigst einen höheren Rang, um es noch betreten zu können."
+  LayoutEnabled: true
+  Layout:
+    - " "
+    - "§8§m-----------------------------------------------------"
+    - "                §3Herzlich Willkommen auf §6ClazeGames.net"
+    - "     §3TeamSpeak §8\u00BB §eClazeGames.net §8\u00BB §3Homepage §8\u00BB §eClazeGames.net"
+    - "                         §bTwitter §8\u00BB §e@ClazeGamesNET"
+    - "§8§m-----------------------------------------------------"
+  TitleEnabled: false
+  Title: "§3Herzlich Willkommen"
+  SubTitle: "§3auf §6ClazeGames.net§3!"
+  TabEnabled: false
+  TabHeader: "§3TeamSpeak §8\u00BB §eClazeGames.net §8\u00BB §3Homepage §8\u00BB §eClazeGames.net"
+  TabFooter: "§bTwitter §8\u00BB §e@ClazeGamesNET"
+
+Ban:
+  Usage: "§cInhalt: §8\u00BB §7§o/ban [Name] [Dauer] [Grund]"
+  Erfolg: "§c§o%Spieler% §7wurde erfolgreich gebannt!"
+  Restriction: "§cDu kannst nicht über deinem Banlimit von %Limit% agieren!"
+  Exempt: "§7Du kannst diesen Spieler nicht bannen!"
+  Layout:
+    - "§7Du wurdest von §cClazeGames.net §4gebannt!"
+    - "§7Grund: §2%Grund%"
+    - "§eVerbleibende Zeit: §e%Dauer%"
+    - "§9Bannersteller: §5%OPERATOR%"
+    - "§7"
+    - "§7Du kannst einen §bEntbannungsantrag §7auf unserem §3Forum oder TeamSpeak erstellen§8!"
+    - "§eTeamSpeak §8\u00BB §cClazeGames.net"
+    - "§eWebsite §8\u00BB §cClazeGames.net"
+  Notification:
+  - "§c§o%Spieler%§r §7wurde von §e§o%OPERATOR%§r §7gebannt!"
+  - "§eGrund: §9§o%Grund%"
+
+Kick:
+  Usage: "§cInhalt: §8\u00BB §7§o/kick [Name] [Grund]"
+  Erfolg: "§c§o%Spieler% §7wurde erfolgreich gekickt!"
+  Exempt: "§7Du kannst diesen Spieler nicht kicken!"
+  Layout:
+    - "§7Du wurdest von §cClazeGames.net §4gekickt!"
+    - "§7Grund: §2%Grund%"
+    - "§7Kickersteller: §5%OPERATOR%"
+  Notification:
+  - "§c§o%Spieler%§r §7wurde von §e§o%OPERATOR%§r §7gekickt."
+  - "§eGrund: §9§o%Grund%"
+
+Mute:
+  Usage: "§cInhalt: §8\u00BB §7§o/mute [Name] [Dauer] [Grund]"
+  Erfolg: "§c§o%Spieler% §7wurde erfolgreich gemutet!"
+  Restriction: "§cDu kannst nicht über deinem Mutelimit von %Limit% agieren!"
+  Exempt: "§7Du kannst diesen Spieler nicht muten!"
+  Layout:
+    - "§cDu wurdest vom Netzwerk gemutet!"
+    - "§7Grund: §2%Grund%"
+    - "§eGemutet bis: §e%Dauer%"
+    - "§9Muteersteller: §5%OPERATOR%"
+    - "§7"
+    - "§7Du kannst einen §bEntmuteantrag §7auf unserem §3Forum oder TeamSpeak erstellen§8!"
+  Notification:
+  - "§c§o%Spieler%§r §7wurde von §e§o%OPERATOR%§r §7gemutet!"
+  - "§eGrund: §9§o%Grund%"
+
+UnBan:
+  Usage: "§cInhalt: §8\u00BB §7§o/unban [Name]"
+  NotBanned: "§c§o%Spieler% wurde noch nicht gebannt!"
+  Erfolg: "§a§o%Spieler% §7wurde erfolgreich entbannt!"
+  NotErfolg: "§a§o%Spieler% §ckonnte nicht entbannt!"
+
+UnMute:
+  Usage: "§cInhalt: §8\u00BB §7§o/unmute [Name]"
+  NotMuted: "§c§o%Spieler% wurde noch nicht gemutet!"
+  Erfolg: "§a§o%Spieler% §7wurde erfolgreich entmutet!"
+
+#Not working
+Banlist:
+  Usage: "§cInhalt: §8\u00BB §7§o/banlist [Page]"
+  OutOfIndex: "§cHier ist keine Seite %PAGE%!"
+  NoEntries: "§c§oHier sind keine Einträge :("
+  Header:
+  - "§7Banlist:"
+  - "§c§oPlayer/IP §8| §e§oDauer §8| §7§oGebannt von"
+  - "§c§oSchreibe §8> §7§oGrund"
+  - "§7"
+  Entry:
+  - "§8[§e[DATE]§8]"
+  - "§c%Spieler% §8| §e%Dauer% §8| §7%OPERATOR%"
+  - "§c%TYP% §8> §7§o%Grund%"
+  - "§7"
+  Footer: "§7Seite §e§o[CURRENT_PAGE] §7von §e§o[TOTAL_PAGES] §8| §7Aktive Bans: §e§o[COUNT]"
+  PageFooter: "§7Tippe §e§o/banlist [NEXT_PAGE] §7,um die nächste Seite zu sehen!"
+
+Check:
+  Usage: "§cInhalt: §8\u00BB §7§o/check [Name]"
+  Header: "§6Check von §e§o%Spieler%"
+  UUID: "§cUUID §8\u00BB §b%UUID%"
+  IP: "§cIP §8\u00BB §b%IP%"
+  Ban: "§cGebannt §rvon §5%OPERATOR%§r für §7%BanDauer%"
+  Mute: "§cGemutet §rvon §5%OPERATOR%§r für §7%MuteDauer%"
+  BanReason: "§cBangrund: §e\"§r%Grund%§e\""
+  MuteReason: "§cMutegrund: §e\"§r%Grund%§e\""
+  NotFound: "§cZu §e§o%Spieler%§r§c gibt es keine Informationen!"
+
+Report:
+  Usage: "§cInhalt: §8\u00BB §7§o/report [Name] [Grund]"
+  Prefix: "§7[§4Report§7] §r"
+  AlreadyReportet: "§cDer Spieler §e%Spieler% §cwurde bereits reportet."
+  Erfolg: "§7Du hast §e%Spieler% §7erfolgreich reportet."
+  Delay: 5
+  
+Reports:
+  Usage: "§cInhalt: §8\u00BB §7§o/reports [info/accept/deny/ban] [Spieler]"
+
+ChatFilter:
+  Usage: "§cInhalt: §8\u00BB §7§o/chatfilter list\t/chatfilter <add/remove> [Wort]"
+  Add: "§aWort erfolgreich hinzugefügt!"
+  Remove: "§cWort erfolgreich entfernt!"
+
+ClearChat:
+  Usage: "§cInhalt: §8\u00BB §7§o/clearchat\t/cc"
+  Erfolg: "§7Der Chat wurde von §e%Spieler% §7geleert."
+  
+Global:
+  Usage: "§cInhalt: §8\u00BB §7§o/global [Nachricht]"
+  
+JoinMe:
+  InLobby: "§cDu darfst diese Funktion nicht in der Lobby verwenden."
+  BereitsGesendet: "§cDu hast bereits eine §eJoinMe-Nachricht §cdieses Servers gesendet."
+  
+Lobby:
+  Usage: "§cInhalt: §8\u00BB §7§o/lobby\t/l\t/hub\t/leave"
+  InLobby: "§cDu befindest dich schon in der Lobby."
+  
+NotifyToggle:
+  Usage: "§cInhalt: §8\u00BB §7§o/notifytoggle\t/ntoggle"
+  
+BroadcastToggle:
+  Usage: "§cInhalt: §8\u00BB §7§o/bctoggle"
+  
+MSG:
+  aktiviert: true
+  Usage: "§cInhalt: §8\u00BB §7§o/msg [Name] [Nachricht]"
+  Prefix: "§7[§aMSG§7] §8%Spieler% §7\u00BB §8%Target%§7: §r"
+  
+Premium:
+  Layout:
+  - "§8§m-----------------------§r§8| §6Premium §8§m|----------------------"
+  - " §7Was kostet der §6Premium §7Rang?"
+  - "  §8\u00BB §e1 Monat §7kostet §e5‚-§7."
+  - "  §8\u00BB §e3 Monate §7kostet §e10‚-§7."
+  - "  §8\u00BB §e6 Monate §7kostet §e15‚-§7."
+  - "  §8\u00BB §ePermanent §7kostet §e25‚-§7."
+  - ""
+  - " §7Was für §eZahlungsmöglichkeiten §7gibt es?"
+  - "  §8\u00BB §9§lPay§b§lPal"
+  - "  §8\u00BB §9§lPaysafe§r§9card"
+  - " §7Wie/Wann bekommt man den §6Premium §7Rang?"
+  - "  §8\u00BB §7Gehe dazu auf unsere §eHomepage"
+  - "    §7und klicke dann auf Shop um unseren Server"
+  - "    §7finanziell zu unterstützen."
+  - ""
+  - " §7Homepage §8| §7TeamSpeak §8\u00BB §eClazeGames.net"
+  - "§8§m-----------------------------------------------------"
+  
+PremiumPlus:
+  Layout:
+  - "§8§m----------------------§r§8 §6Premium+ §8§m---------------------"
+  - " §7Was sind die §eVoraussetzungen §7für den §6Premium+ §7Rang?"
+  - "  §8\u00BB §3Wenn du §e100+ §3aktive Abonnenten hast und ein §eVideo"
+  - "    §3Über den Server hochlädst."
+  - "  §8\u00BB §3Wenn du §e2500+ §3 Aufrufe (insgesamt) hast"
+  - "    §3und ein §eYoutube-Video §3über den Server hochlädst."
+  - "  §8\u00BB §3Wenn du §e50+ §3 Aufrufe (pro Video) hast"
+  - "    §3und ein §eYoutube-Video §3über den Server hochlädst."
+  - ""
+  - " §7Wie/Wann bekommt man den §6Premium+ §7Rang?"
+  - "  §8\u00BB §7Wenn du die obigen Anforderungen erfüllst, kannst du"
+  - "    §7auf unserer §eHomepage §7im Forum einen §eAntrag §7für den Rang stellen."
+  - ""
+  - " §7Homepage §8 §7TeamSpeak §8\u00BB §eClazeGames.net"
+  - "§8§m-----------------------------------------------------"
+  
+Youtuber:
+  Layout:
+  - "§8§m----------------------§r§8| §5YouTuber §8§m|---------------------"
+  - " §3Was sind die §eVoraussetzungen §3für den §5YouTuber §3Rang?"
+  - "  §8\u00BB §3Wenn du §e500+ §3aktive Abonnenten hast und mindestens"
+  - "   §3zwei §eVideo §3über den Server hochlädst."
+  - "  §8\u00BB §3Wenn du §e5000+ §3 Aufrufe (insgesamt) hast"
+  - "    §3und für den §3Server auf §5Twitch§3/§5YouTube§3/§bTwitter §3Werbung machst"
+  - "    §3oder ein §eVideo §3über den Server hochlädst."
+  - ""
+  - " §3Wie/Wann bekommt man den §5YouTuber §3Rang?"
+  - "  §8\u00BB §7Wenn du die obigen Anforderungen erfüllst, kannst du"
+  - "    §7auf unserer §eHomepage §7im Forum einen §eAntrag §7für den Rang stellen."
+  - ""
+  - " §3Homepage §8| §3TeamSpeak §8\u00BB §eClazeGames.net"
+  - "§8§m-----------------------------------------------------"
+  
+  
+# Leere Nachrichten ("") oder welche die mit "/" beginnen, werden nicht gesendet
+# Wiederholungen in Minuten angeben
+Broadcast:
+  Wiederholungen: 5
+  aktiviert: true
+  Nachrichten:
+  - "§8§l§6[System] §8| §7Mit §e/ping §7kannst du dir deinen §ePing §7anzeigen lassen."
+  - "§8§l§6[System] §8| §7Mit §e/premium §7siehst du, wie du auf unserem Netzwerk den §6Premium §7Rang bekommen kannst."
+  - "§8§l§6[System] §8| §7Mit §e/premium+ §7siehst du, wie du auf unserem Netzwerk den §6Premium+ §7Rang bekommen kannst."
+  - "§8§l§6[System] §8| §7Mit §e/youtube §7siehst du, wie du auf unserem Netzwerk den §5YouTuber §7Rang bekommen kannst."
+  - "§8§l§6[System] §8| §7Unser §eTeamSpeak-Server §7ist unter der IP §eClazeGames.net §7zu erreichen."
+  - "§8§l§6[System] §8| §7Unsere §eHomepage §7ist unter der Adresse §eClazeGames.net §7erreichbar."
+  - "§8§l§6[System] §8| §7Folge uns auf §bTwitter §8\u00BB §e@ClazeGames §7um nichts mehr zu verpassen."
+  - "§8§l§6[System] §8| §7Wir haben auch ein Forum das ist unter §eClazeGames.net §7erreichbar."
+
+BlockedCMDs:
+  aktiviert: true
+  Ersatz:
+    aktiviert: true
+    MSG: "§cDieser Command wurde nicht gefunden!"
+  CMDs:
+  - "plugins"
+  - "pl"
+
+BlockedWords:
+  aktiviert: true
+  Words:
+  - "fuck"
+  - "noob"
+  - "arschloch"
+  - "hurensohn"

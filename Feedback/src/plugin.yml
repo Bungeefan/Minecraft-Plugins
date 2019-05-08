@@ -1,0 +1,9 @@
+name: Feedback
+version: 1.0
+author: Bungeefan
+main: me.bungeefan.Feedback
+commands:
+  feedback:
+    usage: /<command> <feedback>
+  feedbacks:
+    usage: /<command>
